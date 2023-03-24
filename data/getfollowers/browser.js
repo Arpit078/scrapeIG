@@ -24,8 +24,8 @@ function delay(time) {
 await delay(10000)
 await page.type('[name=username]', 'blabbla429');
 
-await page.type('[name=password]', 'blabla@1156');
-// await page.type('[name=password]', 'R6@NmH!ILZPfaoi');
+await page.type('[name=password]', '');
+// await page.type('[name=password]', '');
 // await delay(5000)
 const userArr = ["reiiteri","toughbunnyforever","dbagdraws","morvalii", "uselxzs"]
 await page.evaluate(()=>{
