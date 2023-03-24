@@ -174,7 +174,7 @@ for(let i=0;i<userArr.length;i++){
             console.log(followersArr)
             const data = `const ${username}data = ${JSON.stringify(followersArr)};module.exports = ${username}data`
 
-            fs.writeFile(`./scrapedUsers/${username}.js`,data,(err)=>{
+            fs.writeFile(`../scrapedUsers/${username}.js`,data,(err)=>{
               if(err){console.log(err)}
               console.log("ok")
             })

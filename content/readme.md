@@ -1,0 +1,1 @@
+# this folder is meant to store files that create and manipulate content using ai apis.

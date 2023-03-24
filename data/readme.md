@@ -1,0 +1,1 @@
+# this folder is meant to store files that help in generating interested follower groups using scraping and data analysis.
