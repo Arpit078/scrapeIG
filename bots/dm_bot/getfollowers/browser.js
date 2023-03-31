@@ -22,9 +22,9 @@ function delay(time) {
 // const password = await page.waitForSelector('aria/Password');
 // await page.waitFor(()=>{document.querySelectorAll('input').length})
 await delay(10000)
-await page.type('[name=username]', 'blabbla429');
+await page.type('[name=username]', 'aiartdaily.ai');
 
-await page.type('[name=password]', '');
+await page.type('[name=password]', 'http://password@blabbla/#2023');
 // await page.type('[name=password]', '');
 // await delay(5000)
 const userArr = ["reiiteri","toughbunnyforever","dbagdraws","morvalii", "uselxzs"]
@@ -90,6 +90,7 @@ for(let i=0;i<userArr.length;i++){
                                       after = res.data.user.edge_followed_by.page_info.end_cursor;
                                       followers = followers.concat(
                                         res.data.user.edge_followed_by.edges.map(({ node }) => {
+                                          console.log(node)
                                           return {
                                             username: node.username,
                                             full_name: node.full_name,

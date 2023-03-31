@@ -1,0 +1,1 @@
+const toWrite = true;export default toWrite
